@@ -18,7 +18,7 @@ const NewPost = () => {
       body: post,
     });
 
-    navigate("/");
+    navigate("/https://josuemsilva.github.io/19_blog_react");
   };
 
   return (

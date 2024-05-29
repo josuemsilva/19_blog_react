@@ -14,7 +14,7 @@ const Admin = () => {
 
       setPosts(data);
     } catch (error) {
-      //
+      console.log(error);
     }
   };
 

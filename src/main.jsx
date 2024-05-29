@@ -16,7 +16,7 @@ const router = createBrowserRouter([
     element: <App />,
     children: [
       {
-        path: "/",
+        path: "/https://josuemsilva.github.io/19_blog_react",
         element: <Home />,
       },
       {
