@@ -1,11 +1,10 @@
-import { useNavigate, useParams } from "react-router-dom";
+import { useParams } from "react-router-dom";
 import { useState, useEffect } from "react";
 
 import blogFetch from "../axios/config";
 import "./EditPost.css";
 
 const EditPost = () => {
-  const navigate = useNavigate();
   const [title, setTitle] = useState();
   const [body, setBody] = useState();
 
